@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="icon" href="public/pictures/favi.ico">
+    <meta charset="UTF-8">
+    <title>Trees Visualizer</title>
+</head>
+
+<body>
+    <hr>
+    <h1>
+        <center>Trees Visualizer🌲</center>
+    </h1>
+    <hr>
+   
+   
+    <div>
+        <button class="myButton" id="arraydisplay">Display Array</button>
+        <button class="myButton" id="inorder">Display Inorder</button>
+
+        <button class="myButton"id="preorder">Display preorder</button>
+        <button class="myButton" id="postorder">Display postorder</button>
+    </div>
+    <hr>
+    <div>
+        <input id="number"onfocus="this.value=''"class="myButton" placeholder="Number">
+        <br>
+        <button class="myButton"onfocus="this.value=''" onclick="NumberEntered()"id="enter">Enter</button>
+        
+       
+        <p id="result" class="finalans"></p>
+      
+    </div>
+       <hr>
+        <canvas id="gameCanvas" width="1000" height="500"></canvas>
+       
+        <script src="index.js"></script>
+    
+
+</body>
+
+</html>

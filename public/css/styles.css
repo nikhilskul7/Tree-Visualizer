@@ -1,0 +1,71 @@
+hr {
+	border-style: none;
+	background-color: brown;
+	border-top-style: dotted;
+	border-width: 5px;
+	width: 30%;
+}
+h1 {
+	font-family: "Helvetica Neue", Garissal, sans-serif;
+}
+body
+{
+    background-color:#d4ebd0;
+}
+canvas {
+	background:#d4ebd0;
+	padding: 0;
+	padding-left: 00px;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	display: block;
+  }
+.myButton {
+	
+	background-color: darkgreen; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width:360px;
+}
+.myButton:hover {
+background-color:#5cbf2a;
+}
+.myButton:active {
+position:relative;
+top:1px;
+}
+#number{
+	background-color: whitesmoke;
+	width: 50px;
+color: black;
+	font-size: small;
+}
+#enter
+{
+background-color: blue;
+width:1px;
+height: 10px;
+
+font-size: xx-small;
+
+}
+
+.finalans
+{
+	font-size: large;
+	font-style: initial;
+	width: fit-content;
+	border: black;
+	border-color: beige;
+}
+#result
+{
+	position: relative;
+	bottom:80px ;
+	left:600px;
+}
